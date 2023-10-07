@@ -24,7 +24,7 @@ def control_motor(speed_percent, direction):
 # Control the motor
 try:
     while True:
-        control_motor(100, 1)  # Run the motor at 50% speed in forward direction
+        control_motor(100, 1)  # Run the motor at 100% speed in forward direction
         utime.sleep(5)
         
         
